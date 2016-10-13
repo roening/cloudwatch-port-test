@@ -14,4 +14,17 @@ This script gets service status through connection attempt in a specific address
 ### -a, --address <IPv4 or IPv6>
 Specify address to connection test.
 
-### -c, --profile
+### -c, --profile <AWS-CLI-profile>
+Specify AWS CLI profile. If not specified, default profile will used.
+
+### -m, --metric-name <metric-name>
+Specify CloudWatch metric-name.
+
+### -n, --namespace <namespace>
+Specify CloudWatch namespace.
+
+### -p, --port <0-65535>
+Specify port to connection test.
+
+### -r, --region <region>
+Specify CloudWatch region. If not specified, the region specified on AWS CLI configuration will used.
