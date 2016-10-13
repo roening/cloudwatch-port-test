@@ -3,7 +3,7 @@ Send TCP port status to cloudwatch.
 
 ## Dependencies
 
-To use this script is necessary to have "AWS CLI" and "netcat" installed in the S.O. The "AWS CLI" must be installed.
+To use this script is necessary to have "AWS CLI" and "netcat" installed in the S.O. The "AWS CLI" must be configured.
 
 ## How it works?
 
