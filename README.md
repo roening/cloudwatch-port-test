@@ -12,3 +12,6 @@ This script gets service status through connection attempt in a specific address
 ## Parameters
 
 ### -a, --address <IPv4 or IPv6>
+Specify address to connection test.
+
+### -c, --profile
